@@ -1,8 +1,8 @@
 name:                nixfmt
 version:             0.0.0.0
-github:              "NorfairKingnixfmt"
+github:              "NorfairKing/nixfmt"
 license:             BSD3
-author:              "Tom Sydney Kerckhove
+author:              "Tom Sydney Kerckhove"
 maintainer:          "example@example.com"
 copyright:           "2018 Tom Sydney Kerckhove"
 
@@ -15,6 +15,7 @@ library:
   source-dirs: src
   dependencies:
   - base >= 4.7 && < 5
+  - optparse-applicative
   - hnix
 
 executables:
