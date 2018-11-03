@@ -15,8 +15,11 @@ library:
   source-dirs: src
   dependencies:
   - base >= 4.7 && < 5
-  - optparse-applicative
+  - bytestring
   - hnix
+  - optparse-applicative
+  - text
+  - ansi-wl-pprint
 
 executables:
   nixfmt:
